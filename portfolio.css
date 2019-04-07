@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+.navbar {
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+
+.mx-background-top-linear {
+    background: -webkit-linear-gradient(45deg, #17a2b8 48%, #1b1e21 48%);
+    background: -webkit-linear-gradient(left, #17a2b8 48%, #1b1e21 48%);
+    background: linear-gradient(45deg, #17a2b8 48%, #1b1e21 48%);
+}
+
+.boton {
+	color: white;
+	margin: 5px;
+	font-family: "Homer Simpson", cursive;
+}
+.cajavacia{
+    background: linear-gradient(45deg, #17a2b8 50.25%, #1b1e21 48%);
+	height: 120px;
+}
+.principal {
+	height: 500px;
+}
+.verde {
+	background-color: #17a2b8;
+	text-align: center;
+}
+
+.negro {
+	background-color: #1b1e21;
+	text-align: center;
+}
+.imgRedonda {
+    width:200px;
+    height:200px;
+    border-radius:120px;
+    border:10px solid #1b1e21;
+	margin-top: 10px;
+	
+}
+.nombre {
+	margin-top: 40px;
+	color: white;
+	font-family: "Homer Simpson", cursive;
+}
+.demas{
+	color: white;
+	font-family: "Homer Simpson", cursive;
+}
+.trabajo {
+	margin-top: 55px;
+	color: white;
+	font-family: "Homer Simpson", cursive;
+}
+.texto {
+	margin-top: 40px;
+	color: white;
+	font-family: "Homer Simpson", cursive;
+}
+.imagen {
+	width:200px;
+    height:200px;
+    border-radius:120px;
+    border:10px solid #17a2b8;
+	margin-top: 30px;
+}
+
+.imagen1 {
+	width:200px;
+    height:200px;
+    border-radius:120px;
+    border:10px solid #1b1e21;
+	margin-top: 30px;
+}
+.uno {
+	background-color: #17a2b8;
+	text-align: center;
+}
+.dos {
+	background-color: #1b1e21;
+	text-align: center;
+}
+.textin {
+	margin-top: 20px;
+	color: white;
+	font-family: "Homer Simpson", cursive;
+}
+
+.proyect {
+	background-color: #1b1e21;
+	text-align: center;
+	
+}
+.proyect1 {
+	background-color: #17a2b8;
+	text-align: center;
+}
+
+.navbar-brand {
+	font-family: "Homer Simpson", cursive;
+}
+@media only screen and (min-width:991.98px) {
+	.imagen {
+	width:200px;
+    height:200px;
+    border-radius:120px;
+    border:10px solid #17a2b8;
+	margin-top: 30px;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.imagen:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.imagen1 {
+	width:200px;
+    height:200px;
+    border-radius:120px;
+    border:10px solid #1b1e21;
+	margin-top: 30px;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.imagen1:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+}
